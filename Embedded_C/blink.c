@@ -1,4 +1,6 @@
-// Connect 8 LED  at Port2.0-7
+// PANKAJ CHAUDHARI
+// 108
+// LED Interfacing : Blink 8 LEDs at Port2.0-7
 
 
 #include "LPC1768.h"
@@ -15,8 +17,7 @@ int main()
 	{
 		FIO2SET = 0x000000FF; // ON
 		delay();
-		FIO2CLR = 0x000000FF;
+		FIO2CLR = 0x000000FF; // OFF
 		delay();
 	}
-
 }
