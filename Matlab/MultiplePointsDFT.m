@@ -9,7 +9,7 @@ subplot(3,3,1)
 stem(x);
 title("x(n)")
 for i = 2:1:9
-    N = 2^i
+    N = 2^i;
 %     if N > L
          x = [x zeros(1,N-L)];
 %     elseif N < L
