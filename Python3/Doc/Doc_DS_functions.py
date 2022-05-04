@@ -344,7 +344,6 @@ print(''.join(s_alp + s_dig))
     x=cal(20,10)  --> arguments  (positional argruments)
     print(x)   ------> type(x)-> tuple
  
- 
 2) ########  4 Types of arguments
  
     1) Postional Arguments(Applicable : In calling(Actual parameters)) ---> Normal one  --> order matters

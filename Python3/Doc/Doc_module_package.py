@@ -341,4 +341,6 @@ VVIMP  4) Importance of " __init__.py "   :
     
             
          -> To uninstall package :
-            " pip uninstall package_name "         
+            " pip uninstall package_name "
+            
+            
